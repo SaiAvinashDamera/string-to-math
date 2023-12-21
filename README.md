@@ -1,5 +1,6 @@
 # string-to-math
-Evaluates the result of the String arithmetical expression
+An evaluator writtern in js using postfix evaluation
+It valuates the result of the simple string arithmetical expressions
 
 //Examples
 //input: "2 + 1" output:"3"
