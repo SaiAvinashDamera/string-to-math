@@ -74,7 +74,7 @@ function postSolver(eqn) {
 
 
 function calculate(eqn) {
-    eqn = eqn.replace(" ", "");
+    eqn = eqn.replaceAll(" ", "");
     let post_eqn = postfixGen(eqn);
     let result = postSolver(post_eqn);
     return result;
